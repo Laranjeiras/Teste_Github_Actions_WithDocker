@@ -6,7 +6,8 @@ namespace Teste_Github_Actions_WithDocker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Hello World! Data: {DateTime.UtcNow}");
+            Console.WriteLine("Teste Github Actions with docker and Docker Hub!");
         }
     }
 }
