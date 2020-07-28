@@ -2,3 +2,5 @@
 
 
 docker build . -f ./PathPrjStartup/Dockerfile
+
+docker tag <image id> mynewtag:version
